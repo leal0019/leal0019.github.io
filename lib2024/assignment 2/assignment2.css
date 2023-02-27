@@ -7,7 +7,7 @@
 	font-size: 25px;
 	font-family: "Neue Helvetica Thin";
 	letter-spacing: 2px;
-	margin: 20px;
+	margin: 50px;
 	border-radius: 25px;
 }
 .body {
@@ -16,8 +16,7 @@
 	border: solid gray;
 	padding: 10px;
 	font-family: "Neue Helvetica Thin";
-	margin: 20px;
-	border-radius: 25px;
+	margin: 50px;
 }
 .watermark {
 	position: relative;
@@ -39,4 +38,24 @@
 	text-transform: uppercase;
 	transform: rotate(-45deg);
 	user-select: none;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 10px;
+	background-color: ghostwhite;
+	padding: 10px;
+	border: solid gray;
+	margin: 50px;
+	border-radius: 25px;
+	text-align: center;
+}
+.grid-item {
+	background-color: ghostwhite;
+	border: solid gray;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Neue Helvetica Thin";
+	color: black;
 }
