@@ -5,17 +5,18 @@
 	padding: 10px;
 	text-align: center;
 	font-size: 25px;
-	font-family: "Neue Helvetica Thin";
+	font-family: "Impact";
 	letter-spacing: 3px;
 	margin: 50px;
 	border-radius: 25px;
+	text-transform: uppercase;
 }
 .body {
 	background: ghostwhite;
 	color: black;
 	border: solid gray;
 	padding: 10px;
-	font-family: "Neue Helvetica Thin";
+	font-family: "Arial";
 	margin: 50px;
 	text-indent: 3px;
 }
@@ -47,15 +48,15 @@
 	background-color: ghostwhite;
 	padding: 10px 10px;
 	border: solid gray;
-	margin: 50px;
+	margin: 80px;
 	border-radius: 25px;
 	text-align: center;
+	font-family: "Arial"
 }
 .grid-item {
 	background-color: ghostwhite;
 	border: solid gray;
-	padding: 40px;
+	padding: 10px;
 	font-size: 15px;
 	color: black;
-	font-family: "Neue Helvetica Thin";
 }
