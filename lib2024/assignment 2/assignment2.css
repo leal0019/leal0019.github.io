@@ -1,7 +1,7 @@
 .header {
 	background: ghostwhite;
 	color: lightpink;
-	border: solid gray;
+	border: 5px solid gray;
 	text-align: center;
 	font-size: 25px;
 	font-family: "Arial";
@@ -10,17 +10,17 @@
 	border-radius: 25px;
 	text-transform: uppercase;
 	border-color: lightpink;
-}
-body {
-  background: #ccc;
+	position: relative;
+	display: block;
 }
 .wrap {
   max-width: 1280px;
-  margin: auto;
+  margin: 30px;
   overflow: hidden;
-  border: 5px solid #000;
-  background: #efefef;
-  border-spacing: 10px;
+  border: 5px solid gray;
+  border-color: lightpink;
+  background: ghostwhite;
+  border-spacing: 30px;
   position: relative;
   display: flex;
 }
@@ -29,10 +29,6 @@ body {
   padding: 10px;
   text-align: justify;
   width: calc(50% + 220px);
-}
-p {
-  padding: 5px;
-  margin: 0 0 1em;
 }
 .col1:before,
 .col2:before {
@@ -66,7 +62,6 @@ p {
 .col2 {
   margin-left: -440px;
 }
-
 @media screen and (max-width: 800px) {
   .wrap {
     display: block;
@@ -90,13 +85,10 @@ p {
     min-width: 100px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .col1:before {
     display: none;
   }
-}
-
 }
 .centerphoto {
 	display: block;
