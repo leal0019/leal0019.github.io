@@ -1,24 +1,26 @@
 .header {
 	background: ghostwhite;
-	color: black;
+	color: lightpink;
 	border: solid gray;
 	padding: 10px;
 	text-align: center;
 	font-size: 25px;
-	font-family: "Impact";
+	font-family: "Arial";
 	letter-spacing: 3px;
 	margin: 50px;
 	border-radius: 25px;
 	text-transform: uppercase;
+	border-color: lightpink;
 }
 .body {
 	background: ghostwhite;
-	color: black;
+	color: dimgray;
 	border: solid gray;
 	padding: 10px;
 	font-family: "Arial";
 	margin: 50px;
 	text-indent: 3px;
+	border-color: lightpink;
 }
 .watermark {
 	position: relative;
@@ -38,7 +40,7 @@
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	transform: rotate(-45deg);
+	transform: rotate(-35deg);
 	user-select: none;
 }
 .grid {
@@ -46,17 +48,18 @@
 	grid-template-columns: 350px 350px 350px;
 	grid-gap: 10px;
 	background-color: ghostwhite;
-	padding: 10px 10px;
+	padding: 10px;
 	border: solid gray;
 	margin: 80px;
 	border-radius: 25px;
 	text-align: center;
-	font-family: "Arial"
+	font-family: "Arial";
+	background-color: lightpink;
 }
 .grid-item {
 	background-color: ghostwhite;
 	border: solid gray;
 	padding: 10px;
 	font-size: 15px;
-	color: black;
+	color: dimgray;
 }
