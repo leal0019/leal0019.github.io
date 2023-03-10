@@ -2,22 +2,22 @@
 	background: ghostwhite;
 	color: lightpink;
 	border: 5px solid gray;
+	border-color: lightpink;
+	border-radius: 25px;
+	margin: 30px;
+	position: relative;
+	display: block;
 	text-align: center;
 	font-size: 25px;
 	font-family: "Arial";
 	letter-spacing: 3px;
-	margin: 30px;
-	border-radius: 25px;
 	text-transform: uppercase;
-	border-color: lightpink;
-	position: relative;
-	display: block;
 }
 .wrap {
   max-width: 1280px;
   margin: 30px;
   overflow: hidden;
-  border: 5px;
+  border: 5px solid gray;
   border-color: lightpink;
   background: ghostwhite;
   border-spacing: 30px;
