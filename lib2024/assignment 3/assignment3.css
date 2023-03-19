@@ -5,5 +5,5 @@
  	align-items: center;
  	border: none;
  	padding: 60px;
-
+ 	transform: rotate(30deg);
 }
