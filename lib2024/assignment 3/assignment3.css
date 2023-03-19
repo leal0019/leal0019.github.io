@@ -5,5 +5,13 @@
  	align-items: center;
  	border: none;
  	padding: 60px;
- 	transform: rotate(30deg);
+ 	transform: rotate(15deg);
+}
+#text1 {
+	color: white;
+	padding: 60px;
+	font-size: 30px;
+}
+.dog1 {
+	padding: 30px;
 }
