@@ -88,3 +88,21 @@ span:hover {
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+#fade_out {
+  position:absolute;
+  height: 50px;
+  width: auto;
+  margin:10 auto;
+  top: 30%;
+  left: 50%;
+
+}
+#fade_out img {
+  position:absolute;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+#fade_out img.top:hover {
+  opacity:0;
+}

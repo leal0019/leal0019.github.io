@@ -1,1 +1,0 @@
-object.onclick = changeColor(){myScript};
