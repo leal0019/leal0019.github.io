@@ -1,9 +1,40 @@
+.insta {
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+	font-family: Arial;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.click {
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+	font-family: Arial;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
 .button1 {
 	display: inline-block;
  	display: flex;
- 	border: none;
- 	padding: 100px;
- 	transform: rotate(15deg);
+ 	padding: 0px;
 }
 #text1 {
 	color: white;
