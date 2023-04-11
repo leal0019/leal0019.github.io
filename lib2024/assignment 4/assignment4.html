@@ -5,13 +5,13 @@
 	<meta name="description" content="Temperature conversion">
 	<meta name="author" content="Jessica Leal-Correia">
 	<link rel="stylesheet" type="text/css" href="assignment4.css">
-	<link rel="">
-	<title> Temperature Conversion </title>
+	<title>Temperature Conversion</title>
 </head>
 <body>
 <div class="header">
 <h1>Convert the Temperature </h1>	
 </div>
+<div class="box">
 <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
 
 <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
@@ -32,18 +32,15 @@ function tempConvert() {
     } else {
         fahrenheit = (parseFloat(celsius) * 1.8) + 32;
     }
-  
-
-
+ 
     document.getElementById('fahrenheit').value = parseFloat(fahrenheit).toFixed(1);
     document.getElementById('celsius').value = parseFloat(celsius).toFixed(1);
 }
-
 
 function clearForm() {
     document.getElementById('fahrenheit').value = '';
     document.getElementById('celsius').value = '';
 } 
-
 </script>
+</div>
 </body>

@@ -1,8 +1,9 @@
 #convert {
-  background-color: #bba768;
+  background-color: #FFDADA;
+
 }
 #convert:hover {
-  background-color: #bcc768;
+  background-color: #FF9A9A;
 }
 .header {
   font-family: Arial;
@@ -18,11 +19,20 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+.box {
+  background: transparent;
+  border: 5px solid gray;
+  border-color: slateblue;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px;
+}
 input {
-  display: block;
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 2em;
+  display: inline-flex;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
   color: #f4a55a;
   font-family: cursive, sans-serif;
 }
