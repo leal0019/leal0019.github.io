@@ -5,5 +5,22 @@
 	<meta name="description" content="Temperature conversion">
 	<meta name="author" content="Jessica Leal-Correia">
 	<link rel="stylesheet" type="text/css" href="assignment4.css">
-	<title> Temperature </title>
+	<title> Temperature Conversion </title>
 </head>
+<body>
+	<h1>Temperature Converter</h1>
+	<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+<script type="text/javascript">
+	/* When the input field receives input, convert the value from fahrenheit to celsius */
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
+}
+</script>
+</body>
