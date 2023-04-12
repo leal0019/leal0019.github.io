@@ -6,18 +6,11 @@
   background-color: #FF9A9A;
 }
 .header {
-  font-family: Arial;
-  background-image: radial-gradient(circle, #f7340b, #ee4b2b);
+  background-image: linear-gradient(#f7340b, #ee4b2b);
   background-clip: text;
   text-fill-color: transparent;
   background-size: 100%;
   background: transparent;
-  margin: 0px;
-  text-align: center;
-  font-size: 25px;
-  font-family: "Arial";
-  letter-spacing: 3px;
-  text-transform: uppercase;
 }
 .box {
   background: transparent;
