@@ -5,12 +5,17 @@
 #convert:hover {
   background-color: #FF9A9A;
 }
-.header {
-  background-image: linear-gradient(#f7340b, #ee4b2b);
-  background-clip: text;
-  text-fill-color: transparent;
-  background-size: 100%;
-  background: transparent;
+.gradient {
+  font-size: 28px; 
+  background: -webkit-linear-gradient(#0047ab, #ff0000); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.snoopy {
+  
 }
 .box {
   background: transparent;
