@@ -14,10 +14,22 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.snoopy {
-  
+.box1 {
+  background: transparent;
+  border: 5px solid gray;
+  border-color: slateblue;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px;
 }
-.box {
+.snoopy {
+  display: inline-block;
+  display: flex;
+  height: 350px;
+  width: auto;
+  margin: 10 auto;
+}
+.box2 {
   background: transparent;
   border: 5px solid gray;
   border-color: slateblue;
@@ -27,12 +39,13 @@
 }
 input {
   display: inline-flex;
+  position: relative;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
-  color: #f4a55a;
-  font-family: cursive, sans-serif;
+  color: slateblue;
+  font-family: Arial;
 }
 ::-webkit-input-placeholder {
    color: #ccc;
@@ -41,7 +54,7 @@ input {
    color: #ccc;  
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #ccc;  
+   color: darkred;  
 }
 :-ms-input-placeholder {  
    color: #ccc;  
@@ -49,5 +62,5 @@ input {
 button {
   padding: 10px;
   font-size: 1.2em;
-  color: #545454;
+  color: darkblue;
 }
