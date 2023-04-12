@@ -7,7 +7,10 @@
 }
 .header {
   font-family: Arial;
-  color: radial-gradient(circle, #f7340b, #ee4b2b);
+  background-image: radial-gradient(circle, #f7340b, #ee4b2b);
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 100%;
   background: transparent;
   margin: 0px;
   text-align: center;
