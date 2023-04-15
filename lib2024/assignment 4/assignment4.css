@@ -28,7 +28,7 @@
 .snoopy2 {
   float: right;
   display: inline-block;
-  width: aut;
+  width: auto;
   margin: 10 auto;
   position: relative;
   right: 5%;
