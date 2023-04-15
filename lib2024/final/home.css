@@ -1,13 +1,7 @@
-a {
-  color: hotpink;
-  text-decoration: none;
-}
-
 body {
-  background-color: ghostwhite;
   color: white;
-  font-size: 60px;
-  text-align: left;
+  font-size: 50px;
+  text-align: center;
   font-family: Snell Roundhand, cursive;
 }
 html,
