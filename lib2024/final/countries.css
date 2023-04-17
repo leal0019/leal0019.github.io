@@ -3,9 +3,20 @@ body {
 }
 .header {
 	color: white;
+	letter-spacing: 3px;
+	font-family: Snell Roundhand, cursive;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	display: block;
 }
 .australia {
 	text-align: left;
-	left: 20%;
 	position: absolute;
+}
+.japan {
+	text-align: center;
+	position: absolute;
+	display: block;
+
 }
