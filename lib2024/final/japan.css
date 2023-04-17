@@ -43,3 +43,7 @@ body {
   color: #8da1ff;
   padding: 10px;
 }
+.button {
+  text-align: center;
+  padding: 20px;
+}
