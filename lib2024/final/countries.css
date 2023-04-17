@@ -13,15 +13,54 @@ body {
 		-6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
 	text-align: center;
 }
-.australia {
-	text-align: center;
-	padding: 20px;
+html { height: 100%; display: flex;}
+body { margin: auto; } 
+
+.box {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.japan {
-	text-align: center;
-	padding: 20px;
+.image {
+  display:flex;
+  padding: 20px;
+  will-change: transform;  
+  &:hover {
+       cursor: pointer;
+    animation: bounceOut 0.8s ease-in-out forwards;
+  }
 }
-.croatia {
-	text-align: center;
-	padding: 20px;
+@keyframes bounceOut {
+  1% {
+    transform: scale(1)
+  }
+  10% {
+    transform: scale(1.55)
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.0625);
+  }
+    60% {
+    transform: scale(1);
+  }
+      80% {
+    transform: scale(1.015625);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
+
+//slower bounce
+
+@keyframes bounceOut {
+      0%{ transform:scale(1); }
+        50%{ transform:scale(1.3); }
+        75%{ transform:scale(0.9); }
+        100%{transform:scale(1);}
+}
+
