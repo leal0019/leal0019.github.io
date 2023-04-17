@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>Poll UI Design | CodingNepal</title> -->
+  <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+  <div class="header">
+    <h1> HELP ME CHOOSE! </h1>
+  </div>
+  <div id="choices">
+  <div class="choice">
+    <div class="result">
+      <div class="bar" data-choice="1"></div>
+    </div>
+    <div class="label">
+      <p>Australia</p>
+      <button data-choice="1">Vote</button>
+    </div>
+  </div>
+  <div class="choice">
+    <div class="result">
+      <div class="bar" data-choice="2"></div>
+    </div>
+    <div class="label">
+      <p>Japan</p>
+      <button data-choice="2">Vote</button>
+    </div>
+  </div>
+  <div class="choice">
+    <div class="result">
+      <div class="bar" data-choice="3"></div>
+    </div>
+    <div class="label">
+      <p>Croatia</p>
+      <button data-choice="3">Vote</button>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var buttons = document.querySelectorAll(".choice button"),
+  tally = {
+    1: 0,
+    2: 0,
+    3: 0,
+    total: 0
+  };
+
+function vote(choice) {
+  tally[choice]++;
+  tally["total"]++;
+  console.log(tally);
+}
+
+function barPercentage(node, tally) {
+  var choice = node.dataset.choice;
+  
+  if (tally[choice])
+    return tally[choice]/tally["total"] * 100;
+  return 0;
+}
+
+function renderBars() {
+  var bars = document.getElementsByClassName("bar");
+  
+  for (var i = 0; i < bars.length; i++) {
+    var percentage = barPercentage(bars[i], tally);
+    console.log(percentage)
+    bars[i].style.height = percentage.toString() + "%";
+  }
+}
+
+function setup() {
+  // Set up event listeners
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(e) {
+      vote(e.target.dataset["choice"]);
+      renderBars();
+    });
+  }
+  
+  renderBars();
+}
+
+setup();
+</script>
+</body>
+</html>
