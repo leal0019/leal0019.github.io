@@ -13,6 +13,13 @@ body {
     -6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
   text-align: center;
 }
+.text {
+  color: white;
+  font-family: Arial;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
 #choices {
   text-align: center;
 
